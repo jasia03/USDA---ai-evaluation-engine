@@ -1,0 +1,66 @@
+===========================================================================
+USDA AI Evaluation Engine — Structural Metrics Summary
+===========================================================================
+Total traces: 588
+
+── Overall averages ───────────────────────────────────────────
+  Avg Response Length                         80.90
+  Total Turns                                 26.09
+  Human Turns                                  2.69
+  Avg Response Latency Secs                    5.81
+  Kbas Retrieved                               3.71
+  Io Ratio                                    11.07
+  Session Duration Secs                      314.99
+  Avg Vocab Complexity                         7.93
+
+── By termination type ───────────────────────────────
+  Group                               response l total turn human turn response l kbas retri   io ratio session du vocab comp
+  ---------------------------------------------------------------------------------------------------------------------------
+  abandoned                                105.9       22.8        2.0        6.6        3.9       12.5      166.6        8.6
+  escalated                                 38.8       34.1        4.4        6.0        3.0        6.5      527.5        8.0
+  resolved                                  51.8       27.4        2.4        4.8        4.2       15.4      471.2        5.8
+  restarted                                 93.7       24.0        2.7        4.9        3.5        8.8      289.9        8.2
+
+── By category ───────────────────────────────────────
+  Group                               response l total turn human turn response l kbas retri   io ratio session du vocab comp
+  ---------------------------------------------------------------------------------------------------------------------------
+  Hardware Issues                           48.5       29.7        3.5        4.0        2.6        6.5      581.8        7.3
+  LincPass Issues                           73.4       27.5        3.0       18.5        4.1       15.9      348.4        8.0
+  Microsoft 365                             54.1       30.8        3.5        3.8        3.6        8.6      440.2        7.1
+  Mobile Device Issue                       63.5       41.9        4.8        3.6        4.6       12.1      756.6        8.3
+  Network Issues                            52.1       37.2        4.4        3.7        5.6        7.2      482.2        7.6
+  Printing Issue                            77.2       32.5        3.8        4.4        2.4       14.6      716.5        6.9
+  Request for Information/assistance IT       54.1       26.6        2.8        4.2        3.5        9.2      401.9        7.1
+  Software Issue                            46.1       30.1        3.7        3.6        3.2        7.5      456.2        7.7
+  Telephone issue                           86.6       32.2        3.6        5.2        3.0       16.3      535.3        6.8
+  Unknown                                  106.7       21.9        1.9        6.6        3.9       12.5      152.7        8.5
+
+── Restart rate by category ───────────────────────────────────
+  Category                                  Threads  Restarts    Rate
+  --------------------------------------------------------------------
+  Hardware Issues                                14         2   14.3% (!)
+  LincPass Issues                                23         5   21.7%
+  Microsoft 365                                  49        10   20.4%
+  Mobile Device Issue                            18         4   22.2% (!)
+  Network Issues                                 14         2   14.3% (!)
+  Printing Issue                                 19         3   15.8% (!)
+  Request for Information/assistance IT          96        40   41.7%
+  Software Issue                                 62        15   24.2%
+  Telephone issue                                 5         0    0.0% (!)
+  Unknown                                       288        37   12.8%
+
+  (!) = fewer than 20 threads — interpret with caution
+
+── Key findings ────────────────────────────────────────────────
+  Resolution rate          : 17.0% (100 of 588 conversations)
+  Escalation rate          : 19.9% (117 of 588 conversations)
+  Abandonment rate         : 43.0% (253 of 588 conversations)
+
+  Avg latency (resolved)   : 4.8s
+  Avg latency (abandoned)  : 6.6s
+  Avg human turns (resolved)  : 2.4
+  Avg human turns (abandoned) : 2.0
+  Avg session duration (resolved)  : 471s (7.9 min)
+  Avg session duration (abandoned) : 167s (2.8 min)
+  Avg vocab complexity (resolved)  : grade 5.8
+  Avg vocab complexity (abandoned) : grade 8.6
