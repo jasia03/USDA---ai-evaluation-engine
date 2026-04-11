@@ -1,0 +1,77 @@
+=================================================================
+USDA AI Evaluation Engine — Cross-Layer Correlation Analysis
+=================================================================
+
+── Structural metrics vs resolution outcome ───────────────────
+  Does each structural metric predict whether a conversation
+  will be resolved? (correlation with is_resolved flag)
+
+  Metric                                   r  Interpretation
+  --------------------------------------------------------------
+  Vocabulary complexity               -0.324  moderate negative
+  Response length (words)             -0.211  weak negative
+  IO ratio                             0.185  weak positive
+  KBAs retrieved                       0.103  weak positive
+  Session duration (secs)              0.101  weak positive
+  Human turns                         -0.061  negligible
+  Total conversation turns             0.039  negligible
+  Response latency (secs)             -0.034  negligible
+
+── KBA count vs resolution rate ──────────────────────────────
+  Does retrieving more documents lead to better outcomes?
+
+  KBA bucket    Threads  Res. rate  Esc. rate  Avg latency
+  --------------------------------------------------------
+  0 KBAs             51       0.0%      47.1%         3.1s
+  1-2 KBAs          124      16.1%      20.2%         6.0s
+  3-5 KBAs          305      18.7%      17.4%         5.5s
+  6+ KBAs           108      21.3%      13.9%         7.8s
+
+── Response latency vs termination type ──────────────────────
+  Do users abandon faster-responding or slower-responding bots?
+
+  Outcome          Mean (s)  Median (s)   Std dev
+  ------------------------------------------------
+  abandoned            6.56        5.60      3.38
+  escalated            6.00        3.15     28.96
+  resolved             4.82        4.20      2.32
+  restarted            4.88        4.11      2.33
+
+── Vocabulary complexity vs termination type ──────────────────
+  Do harder-to-read responses drive abandonment?
+
+  Outcome          Avg FK grade Interpretation
+  -------------------------------------------------------
+  abandoned                8.61  moderate (high school)
+  escalated                7.96  accessible (middle school)
+  resolved                 5.82  easy (elementary school)
+  restarted                8.24  moderate (high school)
+
+── Semantic scores vs structural metrics (golden set) ─────────
+  Based on 37 annotated conversations
+
+  Metric                                   r  Interpretation
+  --------------------------------------------------------------
+  IO ratio                             0.392  moderate positive
+  Human turns                         -0.347  moderate negative
+  KBAs retrieved                       0.328  moderate positive
+  Response latency (secs)              0.230  weak positive
+  Response length (words)              0.112  weak positive
+  Session duration (secs)             -0.084  negligible
+  Total conversation turns            -0.018  negligible
+  Vocabulary complexity                0.002  negligible
+
+── Human score vs LLM composite by category ──────────────────
+
+  Category                                        Human     LLM     Gap
+  ----------------------------------------------------------------------
+  LincPass Issues                                  2.75    3.19   +0.44
+  Microsoft 365                                    3.00    3.50   +0.50
+  Request for Information/assistance IT            3.00    3.52   +0.52
+  Software Issue                                   2.60    2.92   +0.32
+  Telephone issue                                  1.00    2.50   +1.50
+
+── Key analytical insights ────────────────────────────────────
+  KBA impact: conversations with 0 KBAs resolve at 0.0% vs 21.1% for 5+ KBAs
+  Latency gap: resolved conversations average 4.8s vs 6.6s for abandoned
+  Vocab gap: resolved responses average grade 5.8 vs grade 8.6 for abandoned

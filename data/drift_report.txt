@@ -1,0 +1,47 @@
+=================================================================
+USDA AI Evaluation Engine — Drift Detection Report
+=================================================================
+
+  Warn threshold  : ±5 percentage points
+  Alert threshold : ±10 percentage points
+
+── Baseline metrics (full dataset) ───────────────────────────
+  resolution_rate                     0.1701
+  escalation_rate                     0.1990
+  self_containment_rate               0.8010
+  avg_response_length                 80.8974
+  avg_latency_secs                    5.8134
+  avg_kbas_retrieved                  3.7058
+  avg_vocab_complexity                7.9341
+  avg_io_ratio                        11.0674
+  total_conversations                 588
+  date_range                          2026-01-02 to 2026-02-27
+
+── Monthly drift analysis: January vs February ───────────────
+  January  : 315 conversations
+  February : 273 conversations
+
+  Metric                                   Jan      Feb   Change   Status
+  -------------------------------------------------------------------------
+  Resolution rate                        0.137    0.209   +0.072     WARN
+  Escalation rate                        0.190    0.209   +0.018   STABLE
+  Self-containment rate                  0.810    0.791   -0.018   STABLE
+  Avg response length                   81.452   80.257   -1.195    ALERT
+  Avg latency (secs)                     6.192    5.377   -0.815    ALERT
+  Avg KBAs retrieved                     3.898    3.484   -0.415    ALERT
+  Avg vocab complexity                   8.012    7.844   -0.168    ALERT
+
+── Drift flag summary ────────────────────────────────────────
+  ALERT  : 4 metric(s)
+    → Avg response length changed by -1.195
+    → Avg latency (secs) changed by -0.815
+    → Avg KBAs retrieved changed by -0.415
+    → Avg vocab complexity changed by -0.168
+  WARN   : 1 metric(s)
+    → Resolution rate changed by +0.072
+  STABLE : 2 metric(s)
+
+── Interpretation ────────────────────────────────────────────
+  Resolution rate IMPROVED by 7.2 percentage points from January to February.
+  Overall trend: the chatbot appears to be improving over the observed period.
+  Recommendation: continue monitoring on a monthly cadence using the baseline established above.
