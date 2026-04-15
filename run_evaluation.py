@@ -21,6 +21,10 @@ Pipeline steps:
   7. Merge all metrics into master table
   8. Run cross-layer analysis and drift detection
   9. Generate alignment report
+# Additional analysis scripts (run independently):
+#   python 10_failure_classifier.py   → data/failure_patterns.csv
+#   python 11_rouge_scores.py         → data/rouge_scores.csv
+#   python 12_latency_and_deflection.py → data/latency_per_turn.csv, deflection_rate.csv
 
 Outputs (all saved to data/ folder):
   traces.json
