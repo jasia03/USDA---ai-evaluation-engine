@@ -1,0 +1,589 @@
+thread_id,termination_type,template_category,kbas_retrieved,has_deflection,deflection_msg_count,deflection_type
+1b863708-ee2e-4bd8-adbb-8b540a27c07a,escalated,Microsoft 365,8,0,0,no_deflection
+e84582d8-fb18-46b1-b91d-e41f8f07af56,abandoned,Unknown,2,0,0,no_deflection
+c1c11182-e4f7-419d-a79f-35060ac1753e,restarted,Software Issue,8,0,0,no_deflection
+34b33721-6221-4bfc-afab-b8a44a49cbdf,resolved,Network Issues,10,0,0,no_deflection
+6e043858-e232-4cf9-b823-679dec2ef15d,abandoned,Unknown,16,0,0,no_deflection
+b5220629-97a2-41b6-9fd8-ec99e874ae24,resolved,LincPass Issues,5,0,0,no_deflection
+7f7580e6-b299-47b8-b1ee-8454aac23ecf,abandoned,Unknown,6,1,1,explicit_acknowledgment
+27fe0494-a5d5-4837-9958-2f537b30c38a,abandoned,Unknown,2,0,0,no_deflection
+42fc23fb-00fa-463a-93f3-bff98ac83215,restarted,Unknown,5,0,0,no_deflection
+5dbbb358-0670-487a-bceb-77301249396e,restarted,Unknown,1,0,0,no_deflection
+1f502cc7-3229-49f4-a547-2b241aaf8838,escalated,Software Issue,0,0,0,silent_stall
+d8300f21-dcde-4162-af93-5520496f98ac,abandoned,Unknown,5,0,0,no_deflection
+168057a1-733c-4b77-a368-28b1e9bc6ce0,abandoned,Unknown,6,0,0,no_deflection
+e22d99fc-ca1e-4c5a-8921-a4b178340392,escalated,Microsoft 365,1,0,0,no_deflection
+6c934452-cf4c-4949-bede-3107f9ec4835,abandoned,Unknown,2,0,0,no_deflection
+a2134644-abf3-4d0f-ac99-1267db303b7f,resolved,Software Issue,4,0,0,no_deflection
+d9643f49-fd1e-4430-91ea-cd778958a497,abandoned,Unknown,6,0,0,no_deflection
+41c718e7-6eb4-4710-b71e-929e3ff8f35a,abandoned,Unknown,3,0,0,no_deflection
+9b1421fb-0164-4199-b83c-1b5d013dc099,abandoned,Unknown,7,0,0,no_deflection
+f918029c-4705-420b-98ef-a66757c62e1f,restarted,Unknown,0,0,0,silent_stall
+15ded22b-92df-48a1-bc13-9763280743f5,restarted,Unknown,1,0,0,no_deflection
+cc58bef0-7618-4437-bd13-6931d41dc69d,restarted,Unknown,4,0,0,no_deflection
+e877ae5e-53d9-4d3d-bce2-5d895465e544,restarted,Unknown,2,0,0,no_deflection
+ac673669-614a-4741-a537-f32e9619dbd4,restarted,Unknown,3,0,0,no_deflection
+a6cd5c1d-3c1f-43fe-8793-859903498d1b,abandoned,Unknown,3,0,0,no_deflection
+e5327c9e-ac85-41ee-805d-4377704943bb,restarted,Unknown,5,0,0,no_deflection
+537fd8c5-ff06-4a00-901b-d388b8de861f,restarted,Unknown,6,0,0,no_deflection
+48534c35-53f7-4f30-aa09-c6625d3d51b7,restarted,Unknown,3,0,0,no_deflection
+cbdbf979-9b00-4d23-9ba0-61cae79c9596,restarted,Unknown,2,0,0,no_deflection
+1a4d6947-5dd5-4757-b7e4-5e029bb2fd0c,restarted,Unknown,4,0,0,no_deflection
+f3e460e3-8631-49fd-97c0-06cd7cd04f1e,restarted,Unknown,7,0,0,no_deflection
+10644b7f-b06a-4acb-8d9c-cab6d1df3577,restarted,Unknown,4,0,0,no_deflection
+2056311b-366a-4837-837d-ad1413db026a,abandoned,Unknown,6,0,0,no_deflection
+13abe520-6f7a-410d-836b-ae0369bb4bb1,restarted,Unknown,1,0,0,no_deflection
+fb2f98a2-836e-4a42-9a10-ea33504d3b56,restarted,Unknown,1,0,0,no_deflection
+eaea6816-30fe-4771-8c22-47abd7d2e8d2,resolved,Microsoft 365,3,0,0,no_deflection
+ea136955-20ce-4dec-a823-564cf55eb3c3,abandoned,Unknown,7,0,0,no_deflection
+e7d467c1-2f6d-46d5-adaa-6a6c3861c57e,escalated,Network Issues,4,0,0,no_deflection
+c7bbd207-37f3-4a52-82ca-399209677248,escalated,Hardware Issues,4,0,0,no_deflection
+93152562-3c51-4b55-b74b-c2b311b93eb8,abandoned,Unknown,5,0,0,no_deflection
+6d14ab9e-3c0f-4fc8-95fa-18b049fef21b,escalated,Software Issue,8,0,0,no_deflection
+dd20c70a-7051-425d-9e66-16f5ea412674,resolved,Request for Information/assistance IT,5,0,0,no_deflection
+64382475-3b30-43bf-931f-26c443fc003d,resolved,Request for Information/assistance IT,2,0,0,no_deflection
+56cd20ff-f4f8-4e1c-a9f7-131318e4a23f,restarted,Unknown,4,0,0,no_deflection
+0c81b773-1fb0-4a85-8f5b-179d9b0b186c,restarted,Unknown,2,0,0,no_deflection
+ccf6df11-58f7-483e-b52b-d2e4ab3c4a8e,abandoned,Unknown,6,0,0,no_deflection
+c06e625f-584d-4ba2-9b57-45bffc275a8a,restarted,Software Issue,4,0,0,no_deflection
+611f10e4-11a3-4833-8f9b-520a519544d0,abandoned,Unknown,4,0,0,no_deflection
+8957e24c-8ed3-40ff-894f-99709f1d5051,escalated,Software Issue,7,0,0,no_deflection
+9e090d39-f812-4d79-ae3f-a0dc192e4615,resolved,Software Issue,6,0,0,no_deflection
+0776f243-7ade-4617-b277-bfe024b05bd3,abandoned,Unknown,6,0,0,no_deflection
+b7d70820-2a72-45de-ab70-ee5cb798441f,abandoned,Unknown,6,1,1,explicit_acknowledgment
+248bd3f2-0c89-4e7f-bc67-b5abbce27c54,resolved,Hardware Issues,5,0,0,no_deflection
+66fc286c-cad9-4eb6-9e5e-eb753e15c377,restarted,Software Issue,2,0,0,no_deflection
+4709cdd0-9a24-40c8-a4c2-b0d5859d1ffb,escalated,LincPass Issues,3,0,0,no_deflection
+3e15b35d-565b-420a-873f-b434bbee144e,abandoned,Unknown,5,0,0,no_deflection
+0068717c-57a1-4e8e-af0a-5a2e1fa71ccd,restarted,Printing Issue,4,0,0,no_deflection
+f41fc1a3-b908-4784-8af1-1f664c3ffffc,resolved,Request for Information/assistance IT,2,0,0,no_deflection
+dbb13eee-44f6-4221-9a91-6c18b9231d09,restarted,Printing Issue,4,0,0,no_deflection
+7b64cae3-dde3-4b2a-9a90-7fdab78e55b6,abandoned,Unknown,2,0,0,no_deflection
+597986ab-e294-43ff-878f-5d843a2cc3eb,abandoned,Unknown,3,0,0,no_deflection
+d613cdb1-f978-4496-bb0e-9c6be0ac57d5,abandoned,Unknown,2,0,0,no_deflection
+367e314a-e507-4218-b2ea-1116958b5705,escalated,LincPass Issues,3,1,1,explicit_acknowledgment
+069cb107-e8fa-413a-9320-2c9939b0e53e,escalated,Printing Issue,3,0,0,no_deflection
+f993ef98-17b4-495d-8b78-5b71a2f042ff,abandoned,Unknown,5,0,0,no_deflection
+c6653fe9-96a9-45cc-baeb-368ed658f617,resolved,Mobile Device Issue,7,0,0,no_deflection
+aadf6115-5902-4d7c-a3b9-e27fcaf3b702,restarted,Request for Information/assistance IT,5,0,0,no_deflection
+3b479e8b-8864-4f15-91f9-547465dc8cd5,restarted,Software Issue,2,0,0,no_deflection
+edfe6f89-9d26-4f7c-8cbb-3988effd5644,abandoned,Unknown,5,0,0,no_deflection
+b1941936-2999-4b5a-938b-f5570c8c8c6e,resolved,Microsoft 365,7,0,0,no_deflection
+2ee9b5fa-5214-4f12-8ee4-fd530f9b3d0a,escalated,Software Issue,4,0,0,no_deflection
+7e62e012-0d36-4970-b981-fa44ecc1328e,resolved,Mobile Device Issue,6,0,0,no_deflection
+138627de-2bfb-4808-a5b1-d5d968ffa42c,abandoned,Unknown,2,0,0,no_deflection
+3feac075-41f0-4e7c-b86c-84c32b41a0b8,escalated,Software Issue,1,0,0,no_deflection
+6c5735d3-fa12-4f24-8b76-be13661402ff,escalated,Printing Issue,3,0,0,no_deflection
+e7229d20-2b29-479b-ba3a-3400da4c34f8,escalated,Software Issue,5,0,0,no_deflection
+dbc5b9bc-fbb0-4baf-acb3-b18d1f9308eb,abandoned,Unknown,9,0,0,no_deflection
+42a8413c-1cdf-4e59-b6d8-0872af5d6933,restarted,Request for Information/assistance IT,5,0,0,no_deflection
+2a61c932-431b-4709-933c-ede6ebd3c879,abandoned,Unknown,10,1,1,explicit_acknowledgment
+d4ec6300-4deb-4c34-86b5-12a0d66724b4,escalated,Software Issue,0,0,0,silent_stall
+f55bcce0-8f13-4d65-9cb8-164b1541d17f,restarted,Microsoft 365,2,0,0,no_deflection
+b1d6bf12-cfea-4b28-87d5-6b003d5b72f2,abandoned,Unknown,2,0,0,no_deflection
+e099e8a4-b2cf-4a9e-b544-bcc8ea8ed3dd,restarted,Microsoft 365,3,0,0,no_deflection
+41bd1632-160c-43dd-ad64-c81bf9839696,abandoned,Unknown,4,0,0,no_deflection
+6c5a7a21-6bba-4b20-b062-63b5de113b06,abandoned,Unknown,3,0,0,no_deflection
+bbbc9be9-8166-43f9-a26b-62507f1c5f6e,abandoned,Unknown,3,0,0,no_deflection
+317c1a4d-ad28-473a-b05d-e88ec06afb79,escalated,Network Issues,5,0,0,no_deflection
+7d861d52-65d8-423a-b6d6-5f24a73c92be,abandoned,Unknown,3,0,0,no_deflection
+49e75751-e77a-4231-a47f-9c4ac6cceceb,restarted,Request for Information/assistance IT,0,0,0,silent_stall
+f7742ac5-baa4-49bf-9e47-916077d2ebee,restarted,Request for Information/assistance IT,0,0,0,silent_stall
+5413ccb4-7c47-4d57-b7a0-8f931e035f60,abandoned,Unknown,0,0,0,silent_stall
+6675e6a7-e757-4267-8d22-251b155d1d82,resolved,Software Issue,3,0,0,no_deflection
+99746b73-70ea-42cd-a70a-b2a0b1d2bac3,restarted,Request for Information/assistance IT,1,0,0,no_deflection
+abb77b54-7fee-49d4-8f68-a66fe653db4c,restarted,Unknown,3,0,0,no_deflection
+6932890d-aab2-45cc-b4d1-a6604b7b9c7d,escalated,Network Issues,7,0,0,no_deflection
+27f6623d-911b-43de-8c13-417fd5a8a57d,restarted,Network Issues,4,0,0,no_deflection
+7cd672c6-ab6d-4d92-9bea-fd45509b6d14,abandoned,Unknown,4,0,0,no_deflection
+6f0a0953-7ba0-4602-a68f-a8fafa97e554,escalated,Network Issues,5,0,0,no_deflection
+47580a23-d62a-4fb3-88d5-7970adbcead1,resolved,Request for Information/assistance IT,3,0,0,no_deflection
+f9575e6f-e6a2-41b4-bfda-2f8b6d959d58,abandoned,Unknown,7,0,0,no_deflection
+b5eb71b0-9a20-4409-8ad4-a7e33f8953ec,abandoned,Unknown,5,0,0,no_deflection
+aff45463-7d0f-4ebd-8636-fd74f68464cd,abandoned,Unknown,4,0,0,no_deflection
+5c9bdae2-1673-48cb-aa71-fad1921bc131,abandoned,Unknown,6,0,0,no_deflection
+91ed722a-17d7-4d71-93a7-cd8a3d5f5be7,resolved,Request for Information/assistance IT,5,0,0,no_deflection
+27cb62bd-9606-498a-b6e3-7a2ce1ec6e99,escalated,Printing Issue,3,0,0,no_deflection
+772223d1-bb50-4cac-a1f7-e37fa2e5a0dc,abandoned,Unknown,3,0,0,no_deflection
+922a659c-e026-4128-99f0-64fd020ab0cb,escalated,LincPass Issues,7,0,0,no_deflection
+bec5dd55-fc64-4c5b-9a8b-2a2d682d14d7,restarted,Request for Information/assistance IT,1,1,1,explicit_acknowledgment
+8b0c0e29-62d0-4d5a-b616-0ba6f9e2437e,abandoned,Unknown,4,0,0,no_deflection
+8979de71-753e-4c2d-b6f1-c02e828a66ed,resolved,Microsoft 365,9,1,1,explicit_acknowledgment
+ae7ce6f7-cdbd-4b90-a04b-232bdae93736,resolved,LincPass Issues,3,0,0,no_deflection
+5e95781c-38a6-4498-b554-4823d20772aa,restarted,Request for Information/assistance IT,4,0,0,no_deflection
+58ddc5a8-019a-4e97-b0df-167d6786b847,abandoned,Unknown,4,0,0,no_deflection
+baebd9ae-41a8-436a-b1af-3e0b59b9f2b5,restarted,Printing Issue,3,0,0,no_deflection
+4291ae83-32b1-4e23-97ff-b0c68c2443e9,abandoned,Unknown,0,0,0,silent_stall
+3949fd41-0f21-4048-b94c-417bbb0ac036,resolved,Software Issue,6,0,0,no_deflection
+b058f3ff-00c3-4725-9422-9391733cdb1e,abandoned,Unknown,5,0,0,no_deflection
+fc4b9d55-60ab-4b43-b254-915a11ce95c1,abandoned,Unknown,0,0,0,silent_stall
+d5365edd-b7c0-4605-bb9d-a1da7270455a,escalated,Microsoft 365,4,0,0,no_deflection
+3f207be2-05f2-46d9-817d-34404ef68ce9,abandoned,Unknown,4,0,0,no_deflection
+127d2b71-4078-448c-b894-18a50ea6f9c3,abandoned,Unknown,4,0,0,no_deflection
+caa0b891-87db-4108-b642-d283b67ed06e,resolved,Microsoft 365,5,0,0,no_deflection
+31784907-d130-4cbb-9297-499baafe7c12,abandoned,Unknown,4,0,0,no_deflection
+0d3ce771-8f77-4e92-a22b-1f77b1882b68,restarted,Software Issue,0,0,0,silent_stall
+09448a41-eca6-46e9-a249-f45cb82559a8,escalated,Software Issue,1,1,1,explicit_acknowledgment
+2b671905-69a2-4f26-b9bc-14d588101d51,abandoned,Unknown,7,0,0,no_deflection
+fcdf0fd6-4af5-4aac-bc3a-f70fa7486bad,resolved,Microsoft 365,1,0,0,no_deflection
+5211e49d-008b-4f42-867c-a0efc6c836b7,abandoned,Unknown,7,0,0,no_deflection
+873e8597-d12d-4668-bd7a-6ba3ba484af1,escalated,Request for Information/assistance IT,7,0,0,no_deflection
+3677432e-099e-4a21-aa73-a140fcba87b5,restarted,LincPass Issues,2,0,0,no_deflection
+16ef2468-4f3c-4561-8834-52dc382f89a6,restarted,Unknown,7,0,0,no_deflection
+c00f999c-e6b0-4127-b1df-311063b76201,abandoned,Unknown,4,0,0,no_deflection
+5f724a63-dc0e-4dda-8702-2000679f6f3b,abandoned,Unknown,4,0,0,no_deflection
+adcb8157-0f01-466d-8850-019e2f5d86c9,restarted,Software Issue,9,1,1,explicit_acknowledgment
+ebb96e56-1127-4288-b279-5761519170c9,abandoned,Unknown,3,0,0,no_deflection
+17872ee1-84d2-4ddf-89eb-32f7dec0cc94,resolved,Network Issues,9,0,0,no_deflection
+0fb385a7-d005-4f98-a13d-1b4977bbf9ea,restarted,Software Issue,14,1,1,explicit_acknowledgment
+c209ee52-5955-4037-ae04-da30a89e0b7b,escalated,Software Issue,0,0,0,silent_stall
+9b45e048-6851-4b2b-99a0-72cabcbec7a0,abandoned,Unknown,3,0,0,no_deflection
+444097c2-6f9f-4331-a365-0893c7f211d5,escalated,Request for Information/assistance IT,3,0,0,no_deflection
+c4ae01bf-7eb5-4056-bfad-df5e40bd3c77,restarted,Mobile Device Issue,4,1,1,explicit_acknowledgment
+eb7060d4-95ca-4214-8b69-83127dddef08,restarted,Request for Information/assistance IT,7,1,2,explicit_acknowledgment
+c3414f16-f5eb-4e2a-b945-2748ec69ae0e,abandoned,Unknown,5,0,0,no_deflection
+00591f3e-e93f-4fd3-9992-94da66a94a97,abandoned,Unknown,2,0,0,no_deflection
+ee9c52f0-337e-4377-aed1-c79536796697,escalated,Microsoft 365,5,1,1,explicit_acknowledgment
+64a63601-0296-4131-b1ec-c47506fa5211,escalated,Hardware Issues,1,0,0,no_deflection
+35938363-99c1-448b-bfc7-69beb7dfc3bf,restarted,Request for Information/assistance IT,3,0,0,no_deflection
+8e4a0582-7165-43fa-8159-dfe13487a12f,escalated,Microsoft 365,3,0,0,no_deflection
+e26af405-9b7c-4912-ac82-72537fe2e0d4,escalated,LincPass Issues,6,0,0,no_deflection
+56e676d0-97f5-46b0-97d6-0f960b7502ff,escalated,Software Issue,3,0,0,no_deflection
+872a8fc6-31c9-41a0-81e2-3170e60f9b0f,abandoned,Unknown,4,0,0,no_deflection
+810aa046-3a7a-41d0-9047-5a3f9bce73c7,resolved,Request for Information/assistance IT,10,0,0,no_deflection
+7caa43f8-5676-4e44-b1b7-c4699dec77dc,restarted,Software Issue,2,0,0,no_deflection
+c9901fa5-000a-41a6-9118-93cb9b6bd634,restarted,Software Issue,3,1,1,explicit_acknowledgment
+e0cdc637-d713-45dd-9102-461ba817f37e,abandoned,Unknown,6,0,0,no_deflection
+6f45fb56-cefb-4aa2-a694-ae631de5be24,escalated,Microsoft 365,0,0,0,silent_stall
+4f29fc87-f9ef-4bbb-bf9d-d6d26d4ee7c8,restarted,Request for Information/assistance IT,5,0,0,no_deflection
+51c26f97-7dea-43e3-a45c-db3801c1333f,abandoned,Unknown,4,0,0,no_deflection
+6ef3e4c4-18a7-4b4a-bad4-58d0f9b5be9f,abandoned,Unknown,4,0,0,no_deflection
+dac8619c-ebf0-48b0-98d4-3402a11a362d,resolved,Request for Information/assistance IT,4,0,0,no_deflection
+f9acd3d9-9afb-43b5-bd05-f324557d4171,abandoned,Unknown,3,0,0,no_deflection
+3a7a45a3-141c-41c7-9cb3-7c36eeefdc5a,escalated,Hardware Issues,5,0,0,no_deflection
+49784f4e-5379-4aa3-b512-7dc968aced08,escalated,Mobile Device Issue,9,0,0,no_deflection
+4c721764-48d5-403a-b586-782ef05e9db4,escalated,Network Issues,8,0,0,no_deflection
+f94dc459-dcc6-4214-87a4-1a47b329a54e,abandoned,Unknown,5,0,0,no_deflection
+a908dd22-38cc-4e2f-acba-a622da855778,escalated,Request for Information/assistance IT,4,0,0,no_deflection
+1b505c1a-3e0a-4b46-8f2b-d62870b4a3c3,abandoned,Unknown,3,1,1,explicit_acknowledgment
+7957d37f-020c-4485-bdfd-746a680e1b30,restarted,Request for Information/assistance IT,6,1,1,explicit_acknowledgment
+6421c377-a1c8-4286-b3b1-d3d1fe740206,abandoned,Unknown,0,0,0,silent_stall
+fc0e501a-371b-46d2-9ebc-e632fde7231e,abandoned,Unknown,3,0,0,no_deflection
+4d5f1845-e165-4614-83f3-16d2571f1bfe,abandoned,Unknown,2,0,0,no_deflection
+6a42e73e-1401-4db8-b985-b2c24c46924d,resolved,Request for Information/assistance IT,5,0,0,no_deflection
+8e38cd06-2240-4da6-916e-248a88d91b60,restarted,Request for Information/assistance IT,3,1,1,explicit_acknowledgment
+9c39cfd7-7620-4b4e-9818-0eaf8f1121eb,abandoned,Unknown,4,0,0,no_deflection
+f6d500db-91c7-4041-a3ce-b7e4ce725ee0,abandoned,Unknown,5,0,0,no_deflection
+35f96c7b-0da3-44e8-ae76-25ee7a871a15,abandoned,Unknown,4,0,0,no_deflection
+41799a2f-abbd-4b15-b2d0-b7d825591687,escalated,LincPass Issues,4,0,0,no_deflection
+7a30a9e1-bc60-48cc-9bd1-91ed349f9fc7,abandoned,Unknown,8,0,0,no_deflection
+b593579f-40e0-4514-88e4-9dac94bc1588,abandoned,Unknown,3,0,0,no_deflection
+8e0d75d4-b310-4e0f-9715-e34eb65afb77,escalated,Software Issue,0,0,0,silent_stall
+802ca143-bca8-4d2a-aff7-ab607ac5e5bf,abandoned,Unknown,4,0,0,no_deflection
+1e670f95-bcfe-48f9-b12b-79cd1bff7dbd,abandoned,Unknown,4,0,0,no_deflection
+393aa4b0-02e0-4d54-946e-42630d02210d,abandoned,Unknown,3,0,0,no_deflection
+4e75315a-0c1a-489f-b209-c9e9a9957287,abandoned,Unknown,3,0,0,no_deflection
+3aebbbdd-941c-47b4-a835-1394edcc5b8b,abandoned,Unknown,3,1,1,explicit_acknowledgment
+03039c3b-78d9-40cb-ba89-b877d9634e06,escalated,Request for Information/assistance IT,2,0,0,no_deflection
+4f7056fc-b3ca-4d2c-9720-22328a84ddab,abandoned,Unknown,2,0,0,no_deflection
+6d824778-5294-4fb8-a5c7-63d157513870,abandoned,Unknown,4,1,1,explicit_acknowledgment
+a8c28a2e-12f9-4982-9e40-65b35235354f,abandoned,Unknown,2,0,0,no_deflection
+7a97dcd6-c10e-4924-878f-532e2f35723d,resolved,Request for Information/assistance IT,5,0,0,no_deflection
+e877de5d-ed73-472f-9f33-bdfdcc80cf3e,restarted,Request for Information/assistance IT,0,0,0,silent_stall
+5d3d3042-9afc-4d06-b7f5-20a97b3a0f38,abandoned,Unknown,5,0,0,no_deflection
+717119e5-ae02-4adc-a4e7-a70a6ff4fe31,abandoned,Unknown,10,0,0,no_deflection
+844b30f6-6472-41d3-b872-44bfc41360b9,resolved,Microsoft 365,6,0,0,no_deflection
+1b2f0674-6789-46f6-8beb-620bfe4ff430,resolved,Microsoft 365,5,0,0,no_deflection
+707a8496-ff33-46b5-8c8e-6375ded68d82,abandoned,Unknown,5,0,0,no_deflection
+a700181c-5184-4248-bcda-6898ccba833d,abandoned,Unknown,4,0,0,no_deflection
+943c8ee8-21db-42d2-ac70-564797a6213d,restarted,Request for Information/assistance IT,4,0,0,no_deflection
+3a11f535-e135-4525-8739-2022d5725c38,abandoned,Unknown,3,0,0,no_deflection
+99a30f1b-96d3-4291-9796-2af2c88a61da,resolved,Request for Information/assistance IT,3,0,0,no_deflection
+90f1f437-4af8-4fee-adc4-58b11f80fe56,abandoned,Unknown,1,0,0,no_deflection
+72432aa8-4265-4e4d-bf7e-a0438246ccdc,escalated,Microsoft 365,1,0,0,no_deflection
+4cc26ed3-43c7-4664-b16b-b5b20d719ac5,restarted,Network Issues,8,0,0,no_deflection
+c0106c4f-554c-45f6-92a2-95ac446fe86e,abandoned,Unknown,1,0,0,no_deflection
+73a2a9c8-946f-4fa6-a4c3-6733e175a75d,abandoned,Unknown,2,0,0,no_deflection
+c3294614-c3a8-492c-856f-22e57ecb0fe5,abandoned,Unknown,8,1,1,explicit_acknowledgment
+c516af80-f3bd-4b76-b88a-a44698f73c73,abandoned,Unknown,7,0,0,no_deflection
+294f8dce-6fa1-4f03-beba-66340e835812,abandoned,Unknown,4,0,0,no_deflection
+0f22c11a-f05e-4460-a649-fd1e7ff9e45b,abandoned,Unknown,4,0,0,no_deflection
+a1e88d43-9535-4628-9c4d-c481cc5f47b1,escalated,Microsoft 365,3,0,0,no_deflection
+3f3490b5-4709-498c-80cc-39dc620f6d9d,abandoned,Unknown,0,0,0,silent_stall
+25e38fa8-7f00-44da-959a-4e52cf3d2b1d,restarted,Request for Information/assistance IT,0,0,0,silent_stall
+2c26a251-8a46-4f2b-b751-8c768b08a1c2,restarted,Unknown,0,0,0,silent_stall
+48314e0a-5f3e-4e75-9942-fdd4afe8aa10,escalated,Software Issue,0,0,0,silent_stall
+d3dc2acc-520b-4444-9d7c-4b1090ef79dc,abandoned,Unknown,2,1,1,explicit_acknowledgment
+842c5e19-340a-4102-98cb-37a2c87db188,restarted,Request for Information/assistance IT,2,0,0,no_deflection
+a4323283-dba3-4c6c-8814-c30323dfb9d8,abandoned,Unknown,4,0,0,no_deflection
+bee81cca-d7fd-4674-8a8a-74f1bdca16c3,abandoned,Unknown,6,0,0,no_deflection
+8511f0fd-ec02-4e1c-b984-f95288c67122,abandoned,Unknown,3,0,0,no_deflection
+b893d973-3466-42f0-a911-303fabd087ac,abandoned,Unknown,4,0,0,no_deflection
+4c584636-f7e7-400e-be0e-ae70f6a2db86,escalated,Mobile Device Issue,11,0,0,no_deflection
+a6f6edce-4f5d-48db-9b8d-da7414edbe5b,abandoned,Unknown,7,0,0,no_deflection
+54eb0b53-45a1-4f6d-bb84-d46d6de7d6f3,abandoned,Unknown,9,1,1,explicit_acknowledgment
+6b76e183-ce49-4934-ad96-8554eb42fbca,resolved,Software Issue,3,0,0,no_deflection
+9fda136d-c0a1-4cb9-8d0b-13bf6ec6dbe7,resolved,Request for Information/assistance IT,3,0,0,no_deflection
+f2b324f6-3b8c-4034-986f-5b55fb0cc82c,abandoned,Unknown,1,0,0,no_deflection
+0519312b-51f2-4e37-bcc8-9189d4eae640,abandoned,Unknown,5,0,0,no_deflection
+c112ee0e-665c-4a44-8e05-522f8749b4c7,escalated,Hardware Issues,4,0,0,no_deflection
+a18094a5-a1bd-447c-a020-c56d2d530b2e,escalated,Printing Issue,2,0,0,no_deflection
+7f555c34-2dbf-49fa-923b-512f9ce2ad95,resolved,Request for Information/assistance IT,3,0,0,no_deflection
+7b256863-2001-4ce9-8c42-2e14c303aed1,escalated,Mobile Device Issue,5,0,0,no_deflection
+a8cd5520-3c6d-42d8-83e6-176265c7904e,abandoned,Unknown,3,0,0,no_deflection
+fa7fb855-61bf-4516-8361-877fb9152adb,restarted,Unknown,6,1,1,explicit_acknowledgment
+3c28b2c1-f7bc-4b18-be43-0101418f3957,abandoned,Unknown,6,0,0,no_deflection
+ccbfd0ed-a118-4f23-9f21-7b9ee6adcc67,abandoned,Unknown,5,0,0,no_deflection
+1a3275d9-07b5-41aa-ad37-97c9eef974af,abandoned,Unknown,5,0,0,no_deflection
+2c6313e8-8150-4d25-8ca2-d9a1d167e175,abandoned,Unknown,3,0,0,no_deflection
+1cc0692a-b952-45f9-ac20-1bb7c5674a5e,escalated,Software Issue,4,0,0,no_deflection
+8010dcce-53e6-4543-aa29-77ac5d04966e,abandoned,Unknown,1,0,0,no_deflection
+f9cc73c0-a6cd-437d-9cbc-c88c6c6b8f9a,abandoned,Unknown,5,0,0,no_deflection
+d287b801-e55d-4ab7-ad74-20211fbc3f85,resolved,Request for Information/assistance IT,5,0,0,no_deflection
+1b8a4dd2-f55f-41d6-adc2-ad761d6a66d1,escalated,Software Issue,5,0,0,no_deflection
+60b34804-5bea-48a0-bc8c-dd8d6532b42d,abandoned,Unknown,5,0,0,no_deflection
+9f29b34f-3ac4-4ab0-90f8-b4da7cef4e72,abandoned,Unknown,4,0,0,no_deflection
+ba7bf765-1d0a-4f08-b36d-dd9f802e10d1,abandoned,Unknown,0,0,0,silent_stall
+c1184ffb-52be-4155-8fa1-e46791e38d6f,escalated,Software Issue,5,0,0,no_deflection
+daba5afa-784a-4db8-8df6-9defa884d346,resolved,Request for Information/assistance IT,3,0,0,no_deflection
+ad4bf8b4-850c-438c-b510-534889203cf9,restarted,LincPass Issues,5,0,0,no_deflection
+a8af5f9e-b58d-4187-b50a-2f19a3688b15,abandoned,Unknown,5,0,0,no_deflection
+12e29807-f0dc-42e5-99b2-b7c3606b5a56,abandoned,Unknown,5,0,0,no_deflection
+ae7b2bcc-313e-41e3-a931-6c3d8f99284a,abandoned,Unknown,3,0,0,no_deflection
+f8be9ec7-639e-4268-a7cc-1d1e8ba1fe07,abandoned,Unknown,7,0,0,no_deflection
+7bd02587-5a18-4fcb-8a3d-20222f2847ae,restarted,Request for Information/assistance IT,5,0,0,no_deflection
+b07eb03f-5196-4104-9831-fa54af1321f1,abandoned,Unknown,5,0,0,no_deflection
+b2ec5e3a-0e42-4b13-93c4-7b4f7617c6a3,abandoned,Unknown,5,0,0,no_deflection
+4b259028-ab96-4793-a888-2df3b644e9c2,resolved,LincPass Issues,3,0,0,no_deflection
+9a29c6c3-d115-45d1-8441-65e0ebe37a9a,abandoned,Unknown,2,0,0,no_deflection
+1669c34a-c788-4e39-a598-ecec9daf72a9,escalated,Mobile Device Issue,6,0,0,no_deflection
+ccf1c236-6b2a-42b6-880e-3faf5caf094f,abandoned,Unknown,6,0,0,no_deflection
+a6320022-4ee7-4178-b798-818502888bbb,restarted,Microsoft 365,3,0,0,no_deflection
+1fb6efc2-465e-407e-be38-d8ba10cb4541,abandoned,Unknown,4,0,0,no_deflection
+80d18e76-6d10-420f-bceb-d797ee55ab32,resolved,Request for Information/assistance IT,3,0,0,no_deflection
+2d9f5b26-421e-4a1b-b269-ad7fe885ab7a,abandoned,Unknown,4,0,0,no_deflection
+fa17a62f-fded-4bbf-b2cd-8bbcfef3f641,abandoned,Unknown,1,0,0,no_deflection
+2dcef99d-f555-46f6-a6be-c6822dde682f,abandoned,Unknown,4,1,1,explicit_acknowledgment
+05600b17-d89d-42fb-8c83-dcb4a89e02d7,abandoned,Unknown,4,0,0,no_deflection
+524f5747-54f1-4d85-add4-00ff732a1c4e,resolved,Printing Issue,3,0,0,no_deflection
+4f5b3607-8c96-4b84-8be7-841d626ec5cd,restarted,Software Issue,0,0,0,silent_stall
+87117cce-b431-4b9f-91e4-8cb228d63fd1,abandoned,Unknown,3,0,0,no_deflection
+88c2851f-6458-423e-a24d-b9473ea7080d,abandoned,Unknown,4,0,0,no_deflection
+7873cea5-8799-4733-886f-e5f04fa00c4e,abandoned,Unknown,5,1,1,explicit_acknowledgment
+6bf43a45-a6bf-4893-a1a3-fe9b6237348c,escalated,Software Issue,0,0,0,silent_stall
+40e0e50a-4717-4ef9-98bc-f12af53950ef,abandoned,Unknown,4,0,0,no_deflection
+a1dbdee7-8557-4b4f-b025-c300b55113b5,escalated,Mobile Device Issue,0,0,0,silent_stall
+51ddc210-8170-48fa-874b-3afad512a970,escalated,Microsoft 365,1,0,0,no_deflection
+0b37220b-57ea-4d81-9497-453ee95e7060,restarted,Mobile Device Issue,5,0,0,no_deflection
+ba5bab12-8e3b-4455-986c-427f2f324c12,abandoned,Telephone issue,2,0,0,no_deflection
+ee4a3e9e-9f25-4d26-9081-053a33d0e9c1,escalated,Software Issue,3,0,0,no_deflection
+1c8ec607-fa65-466d-b969-a452bbae1c3d,restarted,Request for Information/assistance IT,6,0,0,no_deflection
+7bbc7f49-8425-4bdf-9897-95658d2f4979,restarted,Request for Information/assistance IT,1,0,0,no_deflection
+2b731e3f-d2bf-4d19-ad2f-d38d285f041e,restarted,Hardware Issues,0,0,0,silent_stall
+c194277b-da7f-436e-8efe-e19f85275ddf,abandoned,Request for Information/assistance IT,3,0,0,no_deflection
+ffac0766-76ec-4570-80df-70c2cb9fa243,resolved,Request for Information/assistance IT,6,0,0,no_deflection
+40086d60-30c8-4ba7-baba-ba9dda68550a,resolved,Request for Information/assistance IT,4,0,0,no_deflection
+c09bb04b-96f9-41a3-825d-b5daa433430e,abandoned,Unknown,0,0,0,silent_stall
+b4a1e2ce-cc30-4ced-bc48-9ec2ee5b1b32,escalated,Hardware Issues,1,0,0,no_deflection
+ca30c4e2-93d0-4174-8c59-6afedb8957ab,abandoned,Unknown,1,0,0,no_deflection
+6f927b23-f8f5-4e31-b03e-cb4f4018bd74,escalated,Microsoft 365,5,0,0,no_deflection
+dced799d-16c7-483e-bb05-352080434572,resolved,LincPass Issues,7,0,0,no_deflection
+8124990e-b821-44e0-b738-1891deecc38e,restarted,Request for Information/assistance IT,0,0,0,silent_stall
+2da04e1b-b67f-4f58-8c0b-7650d3202324,abandoned,Unknown,1,1,1,explicit_acknowledgment
+057690b7-a032-4339-ae83-1537974f5f62,abandoned,Unknown,6,0,0,no_deflection
+87f0d327-519b-42be-b843-7e3cfcc62c2a,abandoned,Unknown,4,0,0,no_deflection
+78105934-e7ff-4a90-aa80-8ef0a066e57c,restarted,Request for Information/assistance IT,5,1,1,explicit_acknowledgment
+f75fb158-ed76-4628-b332-9a7a9f092818,escalated,Printing Issue,1,0,0,no_deflection
+4216cb74-dc52-4e20-9844-78c4c158b95e,resolved,Hardware Issues,4,0,0,no_deflection
+c822cd53-0f6e-47f4-af9d-66c68498b003,resolved,Request for Information/assistance IT,3,0,0,no_deflection
+98801ef2-8593-4678-a19f-47764c83397b,resolved,Request for Information/assistance IT,3,0,0,no_deflection
+92cb0db4-b08b-4826-a1de-ebc9e638a4ac,resolved,Software Issue,2,0,0,no_deflection
+845f40bf-9919-41c4-977a-100ed6c04f07,abandoned,Unknown,1,0,0,no_deflection
+95a42e21-de47-4f20-8d12-5e2fd72aec3a,abandoned,Unknown,4,0,0,no_deflection
+5703f09b-9323-4d3c-9a8d-91ce39349ad6,abandoned,Unknown,3,0,0,no_deflection
+fdaa71c5-5a55-47f6-a348-0ec3b2258530,escalated,Software Issue,2,0,0,no_deflection
+8a3e6ec3-cd28-4dfc-b9c5-8ee8f94f8fe7,abandoned,Unknown,6,0,0,no_deflection
+c1a08615-f250-470d-b302-c3a8e88e5315,abandoned,Unknown,4,0,0,no_deflection
+b86f6a7f-6bb7-4d54-bbb4-cca118efccda,abandoned,Unknown,4,0,0,no_deflection
+016daee9-68da-4856-aea5-2ed6c3961437,escalated,Printing Issue,2,0,0,no_deflection
+ed53f6de-0a26-43d1-93f5-da7de641a652,abandoned,Unknown,4,1,2,explicit_acknowledgment
+8b218d39-504c-47e5-84b5-b306fe8c5e80,restarted,Unknown,0,0,0,silent_stall
+169e82d4-412b-4e12-b827-05e5ada7e2d7,abandoned,Unknown,7,0,0,no_deflection
+b173fc8e-dbe1-402b-b5c3-2f64cf17d7bc,abandoned,Unknown,2,0,0,no_deflection
+c4536f96-3552-4197-b465-0ebee8336f8c,escalated,Microsoft 365,5,0,0,no_deflection
+5f63086c-9f01-486a-9619-716de30da73e,escalated,Printing Issue,3,0,0,no_deflection
+03f1b1ec-e3f3-4baa-86a1-292a5221f38b,abandoned,Unknown,2,0,0,no_deflection
+5f18edbe-69bd-45ee-b607-769c8e299fdd,abandoned,Unknown,4,0,0,no_deflection
+fdaa1d7e-6d81-4442-ada0-bc628f754fed,restarted,Mobile Device Issue,6,0,0,no_deflection
+22337ab0-779c-47c2-9e67-480cfd0ab90f,abandoned,Unknown,4,0,0,no_deflection
+7b5aa9c2-12a9-4db2-8078-f107dcb0c2d9,abandoned,Unknown,1,0,0,no_deflection
+da6aa66c-897f-41ed-b89a-752e862b9c39,abandoned,Unknown,0,0,0,silent_stall
+4a99f55b-d5ab-473b-a92d-faa667a0881d,escalated,Software Issue,5,1,1,explicit_acknowledgment
+8603dc63-d346-4078-9826-78e05af2f91f,escalated,Mobile Device Issue,0,0,0,silent_stall
+8cf626de-7259-4ff9-ba93-1b484fe0a552,resolved,Hardware Issues,1,0,0,no_deflection
+22b51b84-f822-4e04-8033-d44a3b770883,abandoned,Unknown,4,0,0,no_deflection
+693bb0b7-9f56-4594-989c-8987b0f7a62c,resolved,Mobile Device Issue,4,0,0,no_deflection
+511b6795-7dc2-4111-97c6-4aeb29e372e2,restarted,Request for Information/assistance IT,5,0,0,no_deflection
+5483390c-c47a-4512-9631-db2e25e6ceff,restarted,Unknown,5,0,0,no_deflection
+512f1974-be28-4656-aa46-5207d8cbc971,restarted,Unknown,5,0,0,no_deflection
+9862e613-7309-435b-85b2-e0489288a02d,restarted,Unknown,4,0,0,no_deflection
+2efa8d67-cc98-4422-bfe5-941862fe7e1b,abandoned,Unknown,5,0,0,no_deflection
+9c9bf6c3-e437-4048-aa17-64a266ed954d,escalated,Printing Issue,1,0,0,no_deflection
+fef6712e-5285-46ed-a9c1-e5d8f0e8a741,resolved,Software Issue,4,0,0,no_deflection
+e81d7ee6-9f51-468b-bbc4-8f2022693fca,escalated,Software Issue,3,0,0,no_deflection
+e5292030-13fd-4e3a-a158-359da891c293,restarted,Request for Information/assistance IT,7,1,1,explicit_acknowledgment
+67abb3f0-39db-4879-b609-6ebca9778a1f,abandoned,Unknown,5,1,1,explicit_acknowledgment
+9dcbf5cd-f436-4b4a-b7fb-d109bf4931b0,abandoned,Unknown,3,0,0,no_deflection
+d3ea9ead-9cd0-4f8c-9de3-0c6d234e0c85,escalated,Microsoft 365,3,1,1,explicit_acknowledgment
+ba1a26e3-edf0-4462-9a6e-1820e406b9ce,restarted,Microsoft 365,4,0,0,no_deflection
+89cc252a-3337-4e84-8e90-96f47adce2ff,restarted,Request for Information/assistance IT,2,0,0,no_deflection
+9022da3c-e3c4-4701-a1e0-312cb25be652,abandoned,Unknown,2,0,0,no_deflection
+3ced4f86-ae67-44c7-a448-7672ce775e56,abandoned,Unknown,2,0,0,no_deflection
+e6eed244-26ea-4553-82fe-e6d3a1f0b289,escalated,Software Issue,3,0,0,no_deflection
+7e13f425-7787-4203-bb6d-505a7d123200,abandoned,Unknown,4,0,0,no_deflection
+6e85f38c-67b7-4faa-bf6a-0cabee249634,abandoned,Unknown,3,1,1,explicit_acknowledgment
+73c0eddf-c7f6-4c03-a6b7-752843c38b35,escalated,Software Issue,0,0,0,silent_stall
+900cee38-48dd-4b40-b9d8-c5fe6ea8a399,resolved,Request for Information/assistance IT,5,0,0,no_deflection
+be0347ae-f956-4670-83e6-f05f4cbf8ac6,escalated,Microsoft 365,3,0,0,no_deflection
+7151d86d-d7bb-4702-aaf0-1c27b8185aec,escalated,Software Issue,2,0,0,no_deflection
+11437e1a-04a2-4b6d-94cc-ead634dc800b,escalated,Microsoft 365,4,0,0,no_deflection
+afb7b8af-44af-4c21-a419-8ed37ce22fbb,restarted,Microsoft 365,1,0,0,no_deflection
+f7ac4dbe-306d-4e3f-835d-a90efea363d4,escalated,Request for Information/assistance IT,0,0,0,silent_stall
+5b967c22-e424-4053-8551-25011ffc63e3,resolved,Printing Issue,2,0,0,no_deflection
+c4525e79-45a0-4088-b600-11736f9e921d,abandoned,Unknown,4,0,0,no_deflection
+0df1cba6-2330-4eb8-b88a-5930491e8caf,abandoned,Unknown,2,0,0,no_deflection
+8bc2e658-883b-40a4-a260-871afaf4705b,restarted,Microsoft 365,3,0,0,no_deflection
+66c240de-9704-4fa7-b1dd-31a6b894adcf,abandoned,Unknown,6,0,0,no_deflection
+7517fbd6-a811-4902-9099-8a772e37d1e3,escalated,Software Issue,1,0,0,no_deflection
+92ebfc2e-fbb9-4e12-a675-a09b3bb431f0,escalated,Software Issue,6,0,0,no_deflection
+18fd81f0-23be-4b41-95b7-b761f17cebee,abandoned,Unknown,1,0,0,no_deflection
+ea9dabed-4a80-4188-a0f6-e278b587997f,escalated,Microsoft 365,2,0,0,no_deflection
+1e6c26f8-25d9-48eb-9acc-49c1c922c12e,abandoned,Unknown,1,0,0,no_deflection
+9a69f4b4-19e6-475f-b4de-292f201fa25c,abandoned,Unknown,4,0,0,no_deflection
+307ed2e5-252e-4015-aaf9-9f4975e7f975,restarted,Request for Information/assistance IT,5,1,1,explicit_acknowledgment
+cde145eb-0be7-468a-9479-49546791809a,abandoned,Unknown,8,0,0,no_deflection
+e23cdc3e-ba5a-43b0-8fd9-c3caabe3033d,abandoned,Unknown,4,0,0,no_deflection
+d066cc9b-226d-4024-ad55-481f8ba306e6,abandoned,Unknown,0,0,0,silent_stall
+3c522e3c-ad06-460c-a585-9ecf7b5808cd,resolved,Request for Information/assistance IT,4,0,0,no_deflection
+baccd1a7-635e-4e53-a910-a8caf75edf7a,abandoned,Unknown,5,0,0,no_deflection
+9e0c914f-20a6-48e2-857a-78594d6abda8,escalated,Hardware Issues,0,0,0,silent_stall
+e35fc722-d424-4383-8d3d-d826c1cd38f9,abandoned,Unknown,1,0,0,no_deflection
+ac475aff-3eb6-4d1c-bf74-be4052a40026,resolved,LincPass Issues,5,0,0,no_deflection
+de5a24f3-e67d-4533-aff9-66a849365473,abandoned,Unknown,3,0,0,no_deflection
+c4dfa340-55ca-44ae-aebd-5c16fa0233a5,abandoned,Unknown,4,0,0,no_deflection
+f9c822fc-c1bc-447f-8057-79e91cd3dff2,resolved,Request for Information/assistance IT,6,0,0,no_deflection
+6674f364-babb-4db4-a776-c8c2c911dc7e,abandoned,Unknown,6,1,1,explicit_acknowledgment
+8ec69753-6fcd-48d3-9c17-9748986c9635,abandoned,Unknown,3,0,0,no_deflection
+04757ed6-f98f-4501-a7d7-a4169e76af99,resolved,Request for Information/assistance IT,5,0,0,no_deflection
+759c64db-ce67-43cf-a45a-0fd897a75eaf,resolved,Software Issue,4,0,0,no_deflection
+76334f8b-bada-4dcd-87da-54bf2c4a6d67,resolved,Network Issues,8,0,0,no_deflection
+ab736fa0-69d9-4a03-a482-a4e2f0ce17ef,resolved,Request for Information/assistance IT,7,0,0,no_deflection
+68edf728-6c99-4f59-bf95-cfc14833672b,escalated,Request for Information/assistance IT,0,0,0,silent_stall
+bcdf147b-6b52-43e1-b51a-4600ef25704d,resolved,Mobile Device Issue,4,0,0,no_deflection
+700ad8bc-6921-4c93-9935-281d844d772c,resolved,LincPass Issues,4,0,0,no_deflection
+938aa2d2-ad96-4894-b760-14546c0c50f0,resolved,Request for Information/assistance IT,4,0,0,no_deflection
+c8f4f1ff-6bed-4d1e-b741-55c50fbe8127,restarted,LincPass Issues,4,0,0,no_deflection
+82f15019-107a-4aa0-879a-730e229fa3b9,restarted,LincPass Issues,3,0,0,no_deflection
+92386be3-a9c2-4db6-b002-81e73f92d2fe,resolved,LincPass Issues,7,0,0,no_deflection
+cdb8bc99-5e82-47ac-bf7f-52b611ac0c4b,escalated,LincPass Issues,4,0,0,no_deflection
+ca9cde3c-f1fa-433c-851c-61ccd3630608,abandoned,Unknown,7,0,0,no_deflection
+e3b61675-ebc6-4abe-8b79-328eba6fb239,resolved,LincPass Issues,5,0,0,no_deflection
+04847739-3907-45f6-a755-01a27982ad5a,restarted,Unknown,3,0,0,no_deflection
+f7e39b8a-b785-40c1-b372-5a4ae7eecaa1,resolved,Mobile Device Issue,3,0,0,no_deflection
+37cdf164-6b7c-467d-8ffd-979a7e15f5d2,abandoned,Unknown,3,0,0,no_deflection
+1a9ef310-0ad6-476e-a1bb-7f1161581826,escalated,Software Issue,2,0,0,no_deflection
+a9aefbdb-5f1d-4d20-b931-fdb7a7043e69,resolved,Request for Information/assistance IT,3,0,0,no_deflection
+666fd313-cd26-4698-b9a7-54df0cc3d5c1,escalated,Microsoft 365,6,0,0,no_deflection
+c893a530-d7c1-4bab-8328-0f4fa8a85dbe,abandoned,Unknown,5,0,0,no_deflection
+a1a2f8b9-8b82-40d9-8a88-c963ffe531c8,escalated,Software Issue,0,0,0,silent_stall
+845c6714-cd79-4062-82a0-a44cc73a73a9,abandoned,Unknown,2,0,0,no_deflection
+b320ba19-3021-449a-8687-9378ab3b877f,escalated,Software Issue,6,0,0,no_deflection
+2b4215d3-6a43-4906-bf07-26f92ecb41ee,escalated,Printing Issue,2,0,0,no_deflection
+8cd2b110-c268-4bca-b697-f85e6fa70034,abandoned,Unknown,1,0,0,no_deflection
+def09b37-86be-43ac-9635-65e8ebb95974,abandoned,Unknown,4,0,0,no_deflection
+e46d7297-c871-461e-8c2b-524033ab752a,escalated,Network Issues,4,0,0,no_deflection
+bb3a6e79-d2d0-444a-9d6c-921ab029804f,restarted,Unknown,0,0,0,silent_stall
+5c1b44cf-4674-4acb-bdbc-ab13881a8f19,abandoned,Unknown,9,0,0,no_deflection
+9643cbb5-ce66-46f6-9a9f-09590247f53b,abandoned,Unknown,7,0,0,no_deflection
+33598b52-cb68-4f93-b195-e9f71601b7eb,abandoned,Unknown,0,0,0,silent_stall
+c833a6b7-dca0-4035-81b7-1182316d7df2,abandoned,Unknown,6,1,1,explicit_acknowledgment
+d495d63b-71ba-4dc9-a673-78719510734e,resolved,Request for Information/assistance IT,10,0,0,no_deflection
+66997193-3229-484c-af6f-4ee80161eccd,escalated,Hardware Issues,5,0,0,no_deflection
+ab107378-fa98-4517-b68f-47020ea706be,abandoned,Unknown,1,0,0,no_deflection
+17eb2765-2c72-4483-91b3-f0cf0d4a10f0,abandoned,Unknown,2,0,0,no_deflection
+957502cf-9c02-4ed3-b928-4688086aeae0,restarted,Request for Information/assistance IT,0,0,0,silent_stall
+6129d3ad-2d1f-4a5f-86f6-9a128c0557ec,escalated,Request for Information/assistance IT,2,1,1,explicit_acknowledgment
+174f709d-73d0-4ffd-911b-745256220d6f,abandoned,Unknown,5,0,0,no_deflection
+f4c12800-27f3-431c-ae28-a5f13375f911,abandoned,Unknown,3,0,0,no_deflection
+956e1dbf-fcf6-4878-9118-9e5ca9edc2f5,resolved,Request for Information/assistance IT,5,0,0,no_deflection
+5f5dfaad-46f6-46c8-aa5e-c9d0bcae88ea,abandoned,Unknown,2,0,0,no_deflection
+3d7c935a-0272-4ac7-9573-63de58d5791b,restarted,Software Issue,3,1,1,explicit_acknowledgment
+d83aed23-6911-49e6-8cb9-d0d07c363095,resolved,Request for Information/assistance IT,1,0,0,no_deflection
+e656bf89-6fa2-4d63-ae8a-a9218a2ea676,escalated,Telephone issue,3,0,0,no_deflection
+2143477e-2302-4f36-9cb7-e9d6872b2ee7,abandoned,Unknown,4,0,0,no_deflection
+30f18c6a-9818-44cd-ae4a-e5ea275a3ca5,resolved,LincPass Issues,5,0,0,no_deflection
+b8cebc7f-eb7b-496f-9d83-57ae2152b396,abandoned,Unknown,3,0,0,no_deflection
+46bab071-202d-4e06-ba02-d62ab1703912,restarted,Hardware Issues,2,0,0,no_deflection
+043b0923-b637-42b5-90f9-496b0a3636b3,restarted,Microsoft 365,5,0,0,no_deflection
+0e5cc661-9420-4ebe-b304-24f6a9ea1cc8,escalated,Software Issue,2,0,0,no_deflection
+c167a415-ca20-46be-854d-a4b26fdec891,abandoned,Unknown,1,0,0,no_deflection
+b6b60806-d352-49ac-acc0-949d57169b17,abandoned,Unknown,2,0,0,no_deflection
+b04e0fd2-b573-4372-96fc-66f728447a82,resolved,Mobile Device Issue,5,0,0,no_deflection
+279cb0c1-1e2e-41a4-bda8-718d8924ae7b,abandoned,Unknown,2,0,0,no_deflection
+79669542-2556-4479-8ea3-164435df7626,escalated,Microsoft 365,5,1,1,explicit_acknowledgment
+04a4fcd3-7bb0-4883-8cae-43287be3417c,escalated,Software Issue,3,0,0,no_deflection
+0c12d807-3752-4f00-b90a-b3af89c6f50d,escalated,Request for Information/assistance IT,0,0,0,silent_stall
+26357649-025d-4eec-b014-b3363fa5748a,resolved,Microsoft 365,2,0,0,no_deflection
+f6530343-c3a7-44d7-86b0-a2da162f1d52,resolved,Microsoft 365,2,1,1,explicit_acknowledgment
+be5c970c-4786-4f09-a21e-363dd90ff719,abandoned,Unknown,3,1,1,explicit_acknowledgment
+7067e3b8-1578-416d-835e-d8e7797d9198,restarted,Microsoft 365,1,0,0,no_deflection
+059f06f3-33d5-41ca-8e2a-2bf77fdfb828,abandoned,Unknown,2,0,0,no_deflection
+7f57762c-0404-4fbd-9ed8-a2835e3955df,abandoned,Unknown,4,0,0,no_deflection
+363dd6dd-10e5-4654-a938-bf8d5450b0f7,abandoned,Unknown,4,0,0,no_deflection
+56bebf5f-3fdd-4bbd-a4b5-6360a72d2539,abandoned,Unknown,2,0,0,no_deflection
+480e20a1-e6a0-4e80-8517-1e9153bee965,abandoned,Unknown,1,0,0,no_deflection
+6746b533-d412-409c-a021-02663ac59e75,abandoned,Unknown,6,0,0,no_deflection
+19081cad-6d45-4e60-8233-1b2198d6f84c,escalated,Network Issues,0,0,0,silent_stall
+154d031f-2207-46a5-aba0-fbac12e0315a,resolved,Request for Information/assistance IT,3,0,0,no_deflection
+9ebd52d8-06d7-4648-b228-07db6820a512,escalated,Software Issue,0,0,0,silent_stall
+c9293565-4185-4274-9f8a-e72b8b20a336,abandoned,Unknown,3,1,1,explicit_acknowledgment
+ffc3ed78-5cdb-4c57-a561-9e4e2c2e6a26,abandoned,Unknown,6,1,1,explicit_acknowledgment
+2ab7d69a-a245-4048-ae45-4250cb394dcf,resolved,Request for Information/assistance IT,8,0,0,no_deflection
+b717efd3-0441-432b-83cf-d4393a4ba36b,abandoned,Unknown,0,0,0,silent_stall
+63f9c8a4-4f90-4e48-ae1b-bf3d5a8e5007,escalated,Network Issues,3,0,0,no_deflection
+0fa8e0a9-6e1a-4536-9bf3-739be4e829dd,escalated,Request for Information/assistance IT,0,0,0,silent_stall
+715810b8-730d-4df4-9224-04088c886c65,restarted,LincPass Issues,4,0,0,no_deflection
+8f84fa54-c4d8-4406-997a-020bcd922d3c,abandoned,Unknown,2,0,0,no_deflection
+3435d1d1-f4cd-4eaa-b01c-4f152a9dbebb,escalated,Request for Information/assistance IT,0,0,0,silent_stall
+d4a4387b-61a6-49e4-8243-c82ec0b89e00,abandoned,Unknown,4,0,0,no_deflection
+897d8a43-343c-4e1d-949a-058a90af9d91,escalated,Software Issue,6,1,1,explicit_acknowledgment
+e4f9aaef-41e9-4e93-b558-90399e67ebe6,escalated,Software Issue,5,0,0,no_deflection
+b92a41ad-f7df-4a39-be98-988ef72cde1e,resolved,Microsoft 365,2,0,0,no_deflection
+6851226e-9480-4c7e-870f-ef42b830ce28,restarted,Mobile Device Issue,2,0,0,no_deflection
+e2366329-ff25-4920-9a2a-99e265cff6c0,abandoned,Unknown,5,0,0,no_deflection
+fee2d7d3-328e-482a-9163-3fe380df5eaf,abandoned,Unknown,7,0,0,no_deflection
+8c7e4c7a-4b54-4e74-af95-905017019c3e,escalated,Microsoft 365,3,0,0,no_deflection
+62e81558-74fe-4d00-a34b-a308779a5a93,escalated,Request for Information/assistance IT,0,0,0,silent_stall
+a9fcbda6-3bb4-428f-bf79-8f3ad8fd9fab,abandoned,Unknown,6,0,0,no_deflection
+1eb07b8b-ee11-498f-8d7b-33112c849bf6,abandoned,Unknown,3,0,0,no_deflection
+8048b1f7-0d4b-4954-8a86-33e7b05d15e1,restarted,Request for Information/assistance IT,2,0,0,no_deflection
+f2e84e52-43fe-4107-913c-0479362dc7c2,resolved,Request for Information/assistance IT,3,1,1,explicit_acknowledgment
+71ae24e4-ee4e-4379-9e81-0e0e61857bb2,abandoned,Unknown,6,0,0,no_deflection
+7f0b221c-7de4-42e9-85ec-1bc42ec69d2b,escalated,Hardware Issues,1,0,0,no_deflection
+566306c4-af9b-4296-b0a1-f853f3059b9d,restarted,Request for Information/assistance IT,6,1,1,explicit_acknowledgment
+85612277-22e7-46fa-8c29-cffde8cb7f17,abandoned,Unknown,9,0,0,no_deflection
+a2b30637-e9b9-4199-b4fe-7e7ef20d35da,abandoned,Unknown,3,0,0,no_deflection
+1e1dd692-0496-4f09-aa34-fd0619678eff,abandoned,Unknown,2,1,1,explicit_acknowledgment
+08a1c2c5-2f24-4b03-95ac-6d143bdbbe67,abandoned,Unknown,0,0,0,silent_stall
+d211b86a-032e-468e-af41-44e346ef1c03,resolved,Request for Information/assistance IT,6,0,0,no_deflection
+762b93ee-f2bf-431d-87d6-ba0ff0b53d8d,abandoned,Unknown,5,0,0,no_deflection
+3f16b483-0ac4-437c-b7fb-5e84647c38bf,restarted,Software Issue,4,0,0,no_deflection
+a7dcb49c-12ad-4958-a796-535347868cab,resolved,Software Issue,1,0,0,no_deflection
+2a3af773-418f-4bff-b5ca-9776f124612b,abandoned,Unknown,5,0,0,no_deflection
+83028e5f-033e-48a2-b807-ae47c5245b67,abandoned,Unknown,4,0,0,no_deflection
+f8677c6d-376b-4f23-b1b5-62a93ba9e7dd,abandoned,Unknown,4,0,0,no_deflection
+f6630c93-a0cf-4e1c-9ebf-12c7e313f381,abandoned,Unknown,5,0,0,no_deflection
+0398cb40-7822-4539-a648-81f92b31aaa0,restarted,Request for Information/assistance IT,5,0,0,no_deflection
+f68eace6-0a44-4b80-b9cc-855ed81ccd57,abandoned,Unknown,5,0,0,no_deflection
+3b880460-358b-430e-85af-f4faeee073f9,escalated,Microsoft 365,0,0,0,silent_stall
+803d6ae1-f085-403a-b95f-794bb03ebb3b,abandoned,Unknown,6,0,0,no_deflection
+d9742e21-0d31-4234-8983-b832b7955ddd,restarted,Request for Information/assistance IT,3,0,0,no_deflection
+072552cd-ea58-4dac-9078-51cea209aec9,escalated,Software Issue,4,0,0,no_deflection
+46c8b1c8-d6c5-4f27-839f-9bce22643f1a,restarted,Software Issue,7,0,0,no_deflection
+e5576807-e665-4d9a-a1f7-49d5f4990482,abandoned,Unknown,4,0,0,no_deflection
+5dc4c6f7-2ed5-44ef-8185-f5d1e6d5568a,abandoned,Unknown,3,0,0,no_deflection
+51a70edb-8521-4d96-8a55-8740f4c05609,abandoned,Unknown,5,1,1,explicit_acknowledgment
+0d62cbca-31bf-41e2-ba5c-65ca11554f6c,resolved,Request for Information/assistance IT,1,0,0,no_deflection
+235e4f9a-cb79-4c75-84e4-987cb8867e65,restarted,Request for Information/assistance IT,6,0,0,no_deflection
+cd284b8a-f281-4264-9ef1-ebab3ad6dfe6,escalated,Software Issue,0,0,0,silent_stall
+bacda7e3-aaf6-4bf3-abd6-5b473ccd1cc1,escalated,LincPass Issues,2,0,0,no_deflection
+34268175-c47e-4217-9779-d34e0a3da4dd,resolved,Request for Information/assistance IT,4,0,0,no_deflection
+019054fe-fa20-4333-870b-0bb4ef51769b,escalated,Mobile Device Issue,3,0,0,no_deflection
+82254b1d-4865-4687-923f-0a196dc29fa6,restarted,Request for Information/assistance IT,3,0,0,no_deflection
+fda86e72-26dc-4d22-8861-15218bc23cd9,resolved,Request for Information/assistance IT,3,0,0,no_deflection
+e77702cf-1af3-4584-819d-fe52dc4eb27f,escalated,Telephone issue,4,0,0,no_deflection
+17606e28-05a9-4837-b58d-ed2a55af3009,abandoned,Unknown,3,0,0,no_deflection
+d2e66dce-3f26-4859-bf36-6061635b89ab,restarted,Unknown,2,0,0,no_deflection
+f2b8fe28-0318-46bb-b40a-2685ee939de1,resolved,Printing Issue,4,0,0,no_deflection
+226d12a3-17b1-4f9c-84d0-d89cf362659a,restarted,Unknown,1,0,0,no_deflection
+39a5cd42-92d9-47a8-b5ed-9ca380ba6a12,resolved,Request for Information/assistance IT,5,0,0,no_deflection
+0b47b71e-bec1-46c9-aaf2-7feba766e33f,abandoned,Unknown,4,0,0,no_deflection
+b0016d8b-ab92-4cc1-b1ac-32004a373f49,escalated,Software Issue,0,0,0,silent_stall
+7acbab22-62b0-4e23-9155-b07dbfa281b6,abandoned,Unknown,3,0,0,no_deflection
+7b23e377-57c7-4e34-a94f-956a24b2686a,abandoned,Unknown,3,0,0,no_deflection
+7c50d9da-51f8-4040-9a18-6c6d9320b362,resolved,Request for Information/assistance IT,6,0,0,no_deflection
+e9c2c793-742c-4b93-8264-56fe5354e241,escalated,Printing Issue,2,0,0,no_deflection
+4a0dc7cc-aaa9-46a5-8603-753b15dbcaf2,resolved,Hardware Issues,4,0,0,no_deflection
+6e1913b3-3919-4d5e-b5e3-cde616abf841,abandoned,Unknown,6,0,0,no_deflection
+f71b1f96-1288-47be-81a8-a3f66472ad7c,resolved,Printing Issue,1,0,0,no_deflection
+6f036ce4-bca4-44f0-bd26-253a259dd63f,resolved,Request for Information/assistance IT,3,0,0,no_deflection
+b908d72b-2a91-45c9-aa8b-87188085856a,abandoned,Unknown,3,0,0,no_deflection
+dd1f9a74-ea3f-4b4b-ac58-a7d83919b0b9,restarted,Unknown,5,1,1,explicit_acknowledgment
+7b41ab0b-2024-4a43-bc4b-7df3f6e97822,resolved,LincPass Issues,2,0,0,no_deflection
+16f6cd76-6057-49f4-b6bd-b68d80da8093,resolved,Request for Information/assistance IT,2,0,0,no_deflection
+3c973742-d1c0-4386-b4ab-3e81e75d3ba6,resolved,LincPass Issues,2,0,0,no_deflection
+fbebaaf2-a9be-4b7a-ab6c-f719d58b46da,resolved,Request for Information/assistance IT,2,0,0,no_deflection
+77b486b9-bcd2-4d92-9280-76f797659279,restarted,Unknown,4,0,0,no_deflection
+1bbb08aa-1f0d-496a-b1f7-e8bd5c21ff9b,resolved,Microsoft 365,4,0,0,no_deflection
+c95c46db-26aa-4e15-9e4c-6baa272c042b,restarted,Request for Information/assistance IT,2,0,0,no_deflection
+6d1c3ea3-48de-4fa8-ab63-a806e8b28279,resolved,Microsoft 365,4,0,0,no_deflection
+9c5bddc6-c40f-42e3-944f-643dd769f4f9,resolved,Microsoft 365,5,0,0,no_deflection
+195d4b6c-b36f-4491-bd62-786c8a3b8fae,abandoned,Unknown,9,0,0,no_deflection
+dfe6925c-60d5-4b88-90ab-1b45fa371d7f,escalated,Software Issue,2,0,0,no_deflection
+dc87d613-f2de-4083-97ee-a7da4eab65e4,resolved,Network Issues,4,0,0,no_deflection
+e581a8e3-4b99-4090-a13d-d95803d1d97e,restarted,Unknown,4,0,0,no_deflection
+9ea42afe-c699-41f7-887b-0791553ea8b5,abandoned,Unknown,10,0,0,no_deflection
+8735610c-8700-4f8b-9cf5-039e46e395eb,restarted,Unknown,4,0,0,no_deflection
+29da211e-eb01-4f85-aff6-2d870b389298,restarted,Unknown,3,0,0,no_deflection
+7356a91a-82b8-4a1c-8576-2505afbf331f,restarted,Unknown,4,0,0,no_deflection
+a3808549-9ec1-4c43-9838-b2189ee17ad4,resolved,Request for Information/assistance IT,5,0,0,no_deflection
+63531aee-957c-4401-b003-3e44446d2a9f,abandoned,Unknown,2,0,0,no_deflection
+a6eede68-1805-4c38-97ad-0118f38ee6fe,resolved,Request for Information/assistance IT,1,0,0,no_deflection
+0c7ab9f7-b65b-468c-aa79-e9c21e062c74,abandoned,Unknown,1,0,0,no_deflection
+b4093e35-1a60-4b1e-a9d0-3176d732be45,resolved,Printing Issue,1,0,0,no_deflection
+00552590-0b58-4d3f-a89e-5d2558d386e4,restarted,Unknown,5,0,0,no_deflection
+45b2a57f-2455-4166-bf39-7025498d3d45,abandoned,Unknown,5,0,0,no_deflection
+0cf8403e-5e77-43a2-84d0-9603c653f440,escalated,Microsoft 365,0,0,0,silent_stall
+696d34fe-a2c4-4bd7-9fb2-087e042a1811,abandoned,Unknown,8,0,0,no_deflection
+d73405ea-f8fb-434f-acc5-7a15e047501b,restarted,Request for Information/assistance IT,1,1,1,explicit_acknowledgment
+7e40937d-afbe-474c-862c-099d6104db73,restarted,Request for Information/assistance IT,3,0,0,no_deflection
+c802676d-f2bb-4f50-852f-c660c9336c67,restarted,Request for Information/assistance IT,4,0,0,no_deflection
+3dd1bc0e-d07c-434e-896f-63cc3f0b774b,abandoned,Unknown,2,0,0,no_deflection
+d674187a-b3a5-44d0-b3ce-0eab963f5051,restarted,Request for Information/assistance IT,5,0,0,no_deflection
+f94fcf18-a53e-4b6d-bcb6-0020f0febed1,escalated,Microsoft 365,5,0,0,no_deflection
+3277250b-5985-4078-9552-3d6c888fab07,escalated,Software Issue,5,0,0,no_deflection
+e0f4168d-d50e-42d0-ab12-4af57553189a,abandoned,Unknown,4,1,1,explicit_acknowledgment
+74d1da37-c69c-4238-8180-600cc0c7afdd,abandoned,Unknown,1,0,0,no_deflection
+d60533f1-9e5d-46cb-a0ef-aa02048c5a31,abandoned,Unknown,6,0,0,no_deflection
+9632dff9-468a-4d5b-a5db-f4c467045292,abandoned,Unknown,5,1,1,explicit_acknowledgment
+527a6f00-4cd2-488a-9a5f-02452770934f,resolved,Microsoft 365,6,0,0,no_deflection
+b5458bed-2a8a-425c-a323-ac55bad60f0d,abandoned,Unknown,3,0,0,no_deflection
+34bec257-7750-404f-a234-d81d1c4fc95c,abandoned,Unknown,4,0,0,no_deflection
+818a401a-69fd-4d44-a50c-14e526d4d459,abandoned,Unknown,6,0,0,no_deflection
+35af7e2e-64d8-4d17-b661-5904c78013c1,resolved,Telephone issue,3,0,0,no_deflection
+edfbc405-d30b-40b6-9f86-47fac7e7ceba,abandoned,Unknown,7,0,0,no_deflection
+4d11d8cb-5e1b-4b3f-b836-37a2df650432,abandoned,Unknown,4,0,0,no_deflection
+8b566472-8be7-4ec3-95ae-f2c2ce0ee864,escalated,Microsoft 365,1,0,0,no_deflection
+c89d594f-8823-4708-a170-9e981b16f7c2,restarted,Request for Information/assistance IT,1,1,1,explicit_acknowledgment
+6b9a44a0-b0a8-4552-9662-2e4d0460e7c0,restarted,Microsoft 365,5,0,0,no_deflection
+1bd3ba48-dcf1-414d-a92d-ae58600c9483,restarted,Microsoft 365,5,0,0,no_deflection
+29bc81df-3c4f-48eb-b6be-bf84d709de49,escalated,Mobile Device Issue,3,0,0,no_deflection
+28578cfa-f9f0-4be3-b772-e04a3837c453,abandoned,Unknown,4,0,0,no_deflection
+a019d54c-ed68-4a4c-bdbc-81579f49bff6,abandoned,Unknown,2,0,0,no_deflection
+2d0963a1-ef98-4f04-8ec2-6457b1ae53aa,resolved,Microsoft 365,6,0,0,no_deflection
+5482a849-8b40-4567-a327-4e2816271f14,restarted,Request for Information/assistance IT,7,1,2,explicit_acknowledgment
+6d25daea-8fbe-410a-bbb9-7498635bce52,escalated,Microsoft 365,4,0,0,no_deflection
+42dd4e7a-254e-43b7-b076-184cb35d903c,abandoned,Unknown,7,0,0,no_deflection
+5a0b610c-3d7a-4f0a-8f34-bd6819710582,abandoned,Unknown,5,0,0,no_deflection
+1e0c9a60-0866-44b6-be9b-822a776d9c58,restarted,Software Issue,0,0,0,silent_stall
+9a1b1eb6-7fcb-48ab-b2f1-f56c39eceb14,abandoned,Unknown,3,0,0,no_deflection
+36f7e726-5777-406a-a8bc-d61f414ed1d6,restarted,Request for Information/assistance IT,4,0,0,no_deflection
+c0178736-4aa5-4571-a348-335fd00718e3,abandoned,Unknown,1,0,0,no_deflection
+916bcc39-310d-468c-a5ab-5237ea02c1a9,restarted,Software Issue,7,1,1,explicit_acknowledgment
+87a50e73-23f7-4274-b329-ff4b190ab218,abandoned,Unknown,4,0,0,no_deflection
+07bb813c-8f16-4b2a-a25e-403ea174e433,abandoned,Unknown,0,0,0,silent_stall
+36761e25-6a80-48df-b330-411f8d2c0152,abandoned,Unknown,1,0,0,no_deflection
+49e3e461-5341-4d75-901c-8ad62a00a870,resolved,Printing Issue,1,0,0,no_deflection
+c029a0eb-192e-4536-8ffa-2dec82ccf20d,escalated,Microsoft 365,4,0,0,no_deflection
+819bf5c1-af2f-4da7-a88a-2238bb96b778,escalated,Telephone issue,3,0,0,no_deflection
+df2158d0-b758-4df9-9419-39c93d07875b,resolved,Request for Information/assistance IT,7,0,0,no_deflection
