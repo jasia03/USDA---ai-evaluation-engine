@@ -50,8 +50,8 @@ Raw conversation data (.xlsx)
      [Manual annotation]    →  Ideal responses + quality scores (1–5)
           │
           ▼
-06_llm_judge.py             →  Semantic scoring via Claude API (accuracy, helpfulness,
-          │                     tone, brevity)
+06_llm_judge.py             →  Semantic scoring via Claude API (accuracy, helpfulness, tone, brevity)
+          │                 
           ▼
 07_unified_merger.py        →  Master metrics table (all layers combined)
           │
