@@ -1,8 +1,8 @@
 # USDA AI Evaluation Engine
 
-A modular, end-to-end evaluation framework for measuring whether a deployed USDA helpdesk chatbot delivers genuine user and business value — not just technical performance. Built as part of the George Mason University Challenge X project in collaboration with the USDA.
+A modular, end-to-end evaluation framework for measuring whether a deployed USDA helpdesk chatbot delivers genuine user and business value and not just technical performance. Built as part of the George Mason University Challenge X project in collaboration with the USDA.
 
-This framework answers the question USDA leadership actually cares about: **"Does this AI product help our employees?"** — by combining structural metrics, north star metrics, LLM-as-judge semantic scoring, drift detection, and automated alignment reporting into a single repeatable pipeline.
+This framework answers the question : **"Does this AI product help our employees?"** by combining structural metrics, north star metrics, LLM-as-judge semantic scoring, drift detection, and automated alignment reporting into a single repeatable pipeline.
 
 ---
 
@@ -14,12 +14,12 @@ Large language models behave probabilistically, not like traditional software. S
 - Identify which failure patterns are most common and why
 - Detect when chatbot performance degrades over time
 - Make data-driven decisions about where to invest improvement efforts
-
+ 
 ---
 
 ## The Solution
 
-A nine-step evaluation pipeline that processes raw chatbot conversation logs and produces a full suite of metrics, a cross-layer correlation analysis, drift detection against a baseline, and a periodic alignment report — all from a single command.
+A nine-step evaluation pipeline that processes raw chatbot conversation logs and produces a full suite of metrics, a cross-layer correlation analysis, drift detection against a baseline, and a periodic alignment report — all from this single command.
 
 ```
 python run_evaluation.py --data your_chatbot_data.xlsx
@@ -61,13 +61,16 @@ Raw conversation data (.xlsx)
           ▼
 09_alignment_report.py      →  Periodic alignment report (primary deliverable)
 ```
-
+Additional analysis scripts (run independently after the core pipeline):
+10_failure_classifier.py    →  Automatic failure pattern labeling (all 588 conversations)
+11_rouge_scores.py          →  ROUGE similarity scores vs ideal responses (golden set)
+12_latency_and_deflection.py→  Latency per turn + explicit deflection rate
 ---
 
 ## Metrics
 
 ### Structural metrics (all 588 conversations)
-Deterministic signals computed directly from conversation data — no AI judgment required.
+Deterministic signals computed directly from the conversation data.
 
 | Metric | Description |
 |---|---|
@@ -107,26 +110,31 @@ LLM-as-judge scoring calibrated against human expert annotations.
 
 Analysis of 588 real conversations from the USDA helpdesk chatbot (January–February 2026):
 
-**Resolution rate: 17.0%** — only 1 in 6 conversations was fully resolved by the chatbot without human intervention.
+**Resolution rate: 17.0%** - only 1 in 6 conversations was fully resolved by the chatbot without human intervention.
 
-**Abandonment rate: 43.0%** — the most common outcome was users giving up entirely.
+**Abandonment rate: 43.0%** - the most common outcome was users giving up entirely.
 
-**The 63-point self-containment gap** — the chatbot handles 80.1% of conversations without escalating but resolves only 17.0%. This gap represents conversations the chatbot attempted but failed to resolve, where users abandoned or restarted rather than getting help.
+**The 63-point self-containment gap** - the chatbot handles 80.1% of conversations without escalating but resolves only 17.0%. This gap represents conversations the chatbot attempted but failed to resolve, where users abandoned or restarted rather than getting help.
 
-**Zero-KBA conversations resolve at 0.0%** — when the knowledge base retrieval system returns no documents, not a single conversation in the dataset ended in resolution. 51 conversations had zero KBAs retrieved.
+**Zero-KBA conversations resolve at 0.0%** - when the knowledge base retrieval system returns no documents, not a single conversation in the dataset ended in resolution. 51 conversations had zero KBAs retrieved.
 
-**Vocabulary complexity predicts failure** — resolved conversations average a Flesch-Kincaid grade of 5.8 (plain English), while abandoned conversations average grade 8.6 (high school complexity). This is the strongest structural predictor of resolution outcome (r = -0.324).
+**Vocabulary complexity predicts failure** - resolved conversations average a Flesch-Kincaid grade of 5.8 (plain English), while abandoned conversations average grade 8.6 (high school complexity). This is the strongest structural predictor of resolution outcome (r = -0.324).
 
-**LLM judge composite score: 3.21 / 5.00** — tone scores highest (3.86) while helpfulness scores lowest (2.89), meaning the chatbot sounds professional but often fails to actually help.
+**LLM judge composite score: 3.21 / 5.00** - tone scores highest (3.86) while helpfulness scores lowest (2.89), meaning the chatbot sounds professional but often fails to actually help.
 
 **Category performance spread:**
-- Best: LincPass Issues — 47.8% resolution rate
-- Worst: Software Issue — 14.5% resolution rate, 61.3% escalation rate
+- Best: LincPass Issues - 47.8% resolution rate
+- Worst: Software Issue - 14.5% resolution rate, 61.3% escalation rate
 
-**Monthly improvement** — resolution rate improved from 13.7% in January to 20.9% in February, a 7.2 percentage point gain.
+**Monthly improvement** - resolution rate improved from 13.7% in January to 20.9% in February, a 7.2 percentage point gain.
 
-**False resolution flags detected** — some conversations are marked resolved by the system without user confirmation, meaning the 17.0% figure may be slightly inflated.
+**False resolution flags detected** - some conversations are marked resolved by the system without user confirmation, meaning the 17.0% figure may be slightly inflated.
 
+**ROUGE-L F1 scores validate LLM judge findings** — resolved conversations average ROUGE-L F1 of 0.68 against ideal responses, while escalated conversations average only 0.18. This classical NLP measurement independently confirms the semantic scoring results.
+
+**First-turn latency averages 11.9 seconds** — significantly higher than the overall average of 5.8 seconds. Latency decreases as conversations progress, averaging 4.1 seconds by turn 3, suggesting the system works harder on initial knowledge retrieval.
+
+**Deflection rate: 9.2% explicit, 8.7% silent** — 9.2% of conversations had the chatbot explicitly acknowledge it could not help. An additional 8.7% were silent stalls where the chatbot produced no response at all. Silent stalls are more harmful because users wait without knowing help is unavailable.
 ---
 
 ## Failure Taxonomy
@@ -150,7 +158,7 @@ When knowledge base retrieval returns no documents, the chatbot should immediate
 Queries under 6 words should trigger a clarifying question before any knowledge base search is attempted. This prevents the confident-wrong-answer failure pattern that appeared across multiple annotated conversations.
 
 **3. Agency-aware document routing**
-KBA documents should be tagged by USDA agency. Forest Service employees should not receive ERS-specific instructions. This was directly observed in annotation — a Forest Service user received instructions referencing an ERS Info Link folder that does not exist on their desktop.
+KBA documents should be tagged by USDA agency. Forest Service employees should not receive ERS-specific instructions. This was directly observed in annotation where a Forest Service user received instructions referencing an ERS Info Link folder that does not exist on their desktop.
 
 **4. Fix resolution detection mechanism**
 Resolution should require explicit user confirmation rather than being triggered automatically by a system event. Current false positives inflate the reported resolution rate.
@@ -221,6 +229,10 @@ python 06_llm_judge.py
 python 07_unified_merger.py
 python 08_analysis_and_drift.py
 python 09_alignment_report.py
+# Additional analysis (run after core pipeline)
+python 10_failure_classifier.py
+python 11_rouge_scores.py
+python 12_latency_and_deflection.py
 ```
 
 ---
@@ -270,9 +282,10 @@ To run this pipeline you will need access to the original conversation dataset.
 
 ## Project Context
 
-Built for the George Mason University Challenge X — a project-based learning initiative in collaboration with federal government partners. The challenge brief asked for a modular AI evaluation framework for a deployed USDA helpdesk chatbot that could validate business impact, ensure user success, and provide actionable insights for leadership.
+Built for the George Mason University Challenge X - a project-based learning initiative in collaboration with federal government partners. The challenge brief asked for a modular AI evaluation framework for a deployed USDA helpdesk chatbot that could validate business impact, ensure user success, and provide actionable insights for leadership.
 
-**Team:** George Mason University  
+**Team:** Infinite Loop 
+**Member:** Jasia Sanjana
 **Partner:** United States Department of Agriculture (USDA)  
 **Data period:** January 2, 2026 – February 27, 2026  
 **Conversations analyzed:** 588
