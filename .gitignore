@@ -1,0 +1,18 @@
+# Data files — excluded for privacy
+data/
+*.xlsx
+
+# Annotation file — contains real USDA conversations
+golden_set_for_annotation.txt
+
+# API keys
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
